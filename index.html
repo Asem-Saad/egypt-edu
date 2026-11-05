@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>رحلة في وطننا العربي</title>
+<meta name="description" content="ألعاب تفاعلية لوحدة وطننا العربي — دراسات اجتماعية">
+<meta name="theme-color" content="#f4c26b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <button class="logo" id="home" style="border:0;background:none;padding:0;text-align:right"><span id="logo-face"></span> رحلة في وطننا العربي</button>
+  <div class="mode" role="group" aria-label="المستوى">
+    <button id="m-young" aria-pressed="true">🧒 مستكشف (٨–١١)</button>
+    <button id="m-old" aria-pressed="false">🧑‍🎓 خبير (١٢–١٦)</button>
+  </div>
+  <div class="pill" aria-live="polite">⭐ <b id="xp">٠</b></div>
+  <button class="iconbtn" id="snd" aria-label="الصوت">🔊</button>
+  <button class="pill who" id="who" hidden></button>
+  <button class="pill out" id="out" hidden aria-haspopup="true" aria-expanded="false">🚪 خروج</button>
+  <div class="outmenu" id="outmenu" hidden role="menu"></div>
+</header>
+<main id="app"></main>
+<script src="js/data/map.js"></script>
+<script src="js/data/voice.js"></script>
+<script src="js/vendor/supabase.js"></script>
+<script src="js/account.js"></script>
+<script src="js/cloud.js"></script>
+<script src="js/core.js"></script>
+<script src="js/games.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/lessons/l1.js"></script>
+<script src="js/lessons/l2.js"></script>
+<script src="js/lessons/l3.js"></script>
+<script src="js/lessons/l4.js"></script>
+<script src="js/auth-pages.js"></script>
+<script src="js/staff-pages.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
